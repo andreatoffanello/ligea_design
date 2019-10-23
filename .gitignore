@@ -1,3 +1,6 @@
 
 themes/ligea/static/node_modules
 docs/node_modules
+docs/gulpfile.js
+docs/package-lock.json
+docs/package.json
