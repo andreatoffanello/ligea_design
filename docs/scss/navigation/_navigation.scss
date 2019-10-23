@@ -1,0 +1,15 @@
+nav	{
+	display: grid;
+	padding: 8px 16px;
+	grid-template-rows: 32px;
+	background: $main;
+	grid-template-columns: 48px 1fr;
+}
+
+.nav_logo {
+	display: inline-block;
+
+	img {
+		max-height: 100%;
+	}
+}

@@ -1,0 +1,33 @@
+.hero_head {
+	 padding: 64px;
+	 
+	.hero_content {
+
+		.hero_logo {
+		    width: 128px;
+    		opacity: 1;
+    		margin: 16px auto;
+    		display: block;
+		}
+
+		.hero_title,
+		.hero_sub {
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: 900;
+			letter-spacing: .1em;
+			color: $main;
+		}
+
+		.divider {
+			height: 4px;
+			background: $main;
+			width: 32px;
+			margin: 16px auto;
+		}
+
+	}
+}
+
+
+

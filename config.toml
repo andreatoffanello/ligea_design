@@ -1,0 +1,60 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Ligea Design System"
+theme = "Ligea"
+
+enableRobotsTXT= "true"
+publishDir = "docs"
+
+# sectionPagesMenu = "main"
+
+
+# [menu]
+#   	[[menu.docs]]
+#     	name = "Introduction"
+#     	url = "/docs/"
+#     	weight = 1
+#     	identifier = "introduction"
+#     [[menu.docs]]
+#     	name = "Typography"
+#     	url = "/docs/typography/"
+#     	weight = 2
+#     	identifier = "typography"
+#     [[menu.docs]]
+#     	name = "Icons"
+#     	url = "/docs/icons/"
+#     	weight = 3
+#     	identifier = "icons"
+#     [[menu.docs]]
+#     	name = "Colors"
+#     	url = "/docs/colors/"
+#     	weight = 4
+#     	identifier = "colors"
+# 	[[menu.docs]]
+#     	name = "Layout"
+#     	url = "/docs/layout/"
+#     	weight = 5
+#     	identifier = "layout"
+# 	[[menu.docs]]
+#     	name = "Elements"
+#     	url = "/docs/elements/"
+#     	weight = 6
+#     	identifier = "elements"
+# 	[[menu.docs]]
+#     	name = "Buttons"
+#     	url = "/docs/buttons/"
+#     	weight = 7
+#     	identifier = "buttons"
+# 	[[menu.docs]]
+#     	name = "Forms"
+#     	url = "/docs/forms/"
+#     	weight = 8
+#     	identifier = "forms"
+#     [[menu.docs]]
+#     	name = "Cards"
+#     	url = "/docs/cards/"
+#     	weight = 9
+#     	identifier = "cards"
+
+
+  
