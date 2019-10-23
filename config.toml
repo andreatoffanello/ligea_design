@@ -57,4 +57,4 @@ publishDir = "docs"
 #     	identifier = "cards"
 
 
-  
+  ignorefiles = [ "themes/ligea/static/node_modules" ]
