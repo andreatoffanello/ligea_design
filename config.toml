@@ -55,6 +55,3 @@ publishDir = "docs"
 #     	url = "/docs/cards/"
 #     	weight = 9
 #     	identifier = "cards"
-
-
-  ignorefiles = [ "themes/ligea/static/node_modules" ]

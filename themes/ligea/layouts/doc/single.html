@@ -6,11 +6,20 @@
 
 		<div>{{.Content}}</div>
 
+		{{ if isset .Params "partial" }}
 
-		{{ partial "elements/grid.html" . }}
+			{{ $element := .Params.partial }}
 
-		
+			{{ $path := (printf "%s%s%s" "elements/" $element ".html") }}
+
+			{{ partial $path . }}
+
+			<h2>bella</h2>
+
+		{{ end }}
+
+
 	</div>
-	
-	
+
+
 {{ end }}

@@ -8,5 +8,7 @@ slug: buttons
 menu: docs
 name: "Buttons"
 weight: 7
-   
+
+partial: buttons
+
 ---
