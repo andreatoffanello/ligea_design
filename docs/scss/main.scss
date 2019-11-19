@@ -16,7 +16,5 @@
 @import "elements/cards";
 @import "elements/buttons";
 
-body {
-	background: $light;
-	font-family: $font;
-}
+
+@import "custom";

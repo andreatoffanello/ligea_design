@@ -1,0 +1,101 @@
+//
+
+body {
+	background: $light;
+}
+
+// ICONS
+
+.hljs {
+    padding: 1.6rem;
+    background: $main_light;
+}
+
+.icon_grid {
+	display: grid;
+	grid-gap: 1.6rem;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+
+	fieldset,
+	.fs0 {
+		display: none;
+	}
+
+	.pbs {
+		text-align: center;
+		padding: 1.6rem;
+
+		i {
+			margin-bottom: .8rem;
+			font-size: 2rem;
+		}
+
+		.mls {
+			display: block;
+			margin-top: 1.6rem;
+		}
+	}
+}
+
+
+// Layout Example
+
+.grid.demo{
+
+	div {
+		background: $main_light;
+		text-align: center;
+		padding: .4rem;
+
+		span {
+			color: $main;
+		}
+	}
+}
+
+
+// colors
+
+.color_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 128px);
+    grid-gap: 32px;
+}
+
+.no-pad {
+    padding: 0;
+}
+
+.color {
+    height: 128px;
+    width: 128px;
+
+    &.main {
+        background-color: $main;
+    }
+
+    &.second {
+        background-color: $second;
+    }
+
+    &.dark {
+        background-color: $dark;
+    }
+
+    &.gray {
+        background-color: $gray;
+    }
+
+    &.light {
+        background-color: $light;
+    }
+}
+
+.color_label {
+    text-align: center;
+    padding: 8px;
+    color: $gray;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}

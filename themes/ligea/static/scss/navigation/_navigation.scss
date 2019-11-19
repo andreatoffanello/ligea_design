@@ -3,7 +3,8 @@ nav	{
 	padding: 8px 16px;
 	grid-template-rows: 32px;
 	background: $main;
-	grid-template-columns: 48px 1fr;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-gap: 16px;
 }
 
 .nav_logo {
@@ -11,5 +12,35 @@ nav	{
 
 	img {
 		max-height: 100%;
+		height: 100%;
+		width: 32px;
+	}
+}
+
+.menu_container {
+	align-self: center;
+
+	h3 {
+		color:$white;
+		text-align: center;
+		font-size: 18px;
+
+	}
+}
+
+.credits {
+	align-self: center;
+
+	a {
+		display: grid;
+		grid-template-columns: 1fr auto;
+		align-items: center;
+		grid-gap: 8px;
+
+	}
+
+	span, i {
+		color: $white;
+		text-align: right;
 	}
 }

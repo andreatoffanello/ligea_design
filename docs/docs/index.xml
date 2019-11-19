@@ -19,7 +19,8 @@
       <guid>/docs/typography/</guid>
       <description>Font family: Source Sans Pro
 &amp;ldquo;Source® Sans Pro, Adobe&amp;rsquo;s first open source typeface family, was designed by Paul D. Hunt. It is a sans serif typeface intended to work well in user interfaces.&amp;rdquo;
-H1 Heading H2 Heading H3 Heading H4 Heading Paragraph</description>
+H1 Heading H2 Heading H3 Heading H4 Heading Paragraph
+&amp;lt;h1&amp;gt;H1 Heading&amp;lt;/h1&amp;gt; &amp;lt;h2&amp;gt;H2 Heading&amp;lt;/h2&amp;gt; &amp;lt;h3&amp;gt;H3 Heading&amp;lt;/h3&amp;gt; &amp;lt;h4&amp;gt;H4 Heading&amp;lt;/h4&amp;gt; &amp;lt;p&amp;gt;Paragraph&amp;lt;/p&amp;gt;  </description>
     </item>
     
     <item>
@@ -28,7 +29,11 @@ H1 Heading H2 Heading H3 Heading H4 Heading Paragraph</description>
       <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
       
       <guid>/docs/icons/</guid>
-      <description></description>
+      <description> Assets Scarica il file .zip con le le icone:
+Download icon pack  
+Oppure utilizza il link nell&amp;rsquo;head:
+&amp;lt;head&amp;gt; ... &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot; href=&amp;quot;https://andreatoffanello.github.io/thetis_icon_font/style.css&amp;quot;&amp;gt; ... &amp;lt;/head&amp;gt;  Utilizzo Inserire il nome dell&amp;rsquo;icona al posto di [icon_name]
+&amp;lt;i class=&amp;quot;[icon_name]&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;  Raccolta Icone </description>
     </item>
     
     <item>
@@ -37,7 +42,7 @@ H1 Heading H2 Heading H3 Heading H4 Heading Paragraph</description>
       <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
       
       <guid>/docs/colors/</guid>
-      <description></description>
+      <description>  #033E8C   #7898C9   #353535   #b2b2b2   #fafafa   SCSS /* Directory */ .../scss/ |... | |_colors.scss | |...   /* Scss variables */ $main: #033E8C; $main_light: #E1E7EF; $second: #7898C9; $dark: #353535; $gray: #B2B2B2; $light: #FAFAFA; $white: #FFFFFF; /* Usage example */ div { background-color: $main; }  </description>
     </item>
     
     <item>
@@ -46,7 +51,7 @@ H1 Heading H2 Heading H3 Heading H4 Heading Paragraph</description>
       <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
       
       <guid>/docs/layout/</guid>
-      <description></description>
+      <description>1 7 2 6 3 5 4 4 5 3 6 2 7 1 Full  &amp;lt;div class=&amp;quot;grid demo&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;col-1&amp;quot;&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-7&amp;quot;&amp;gt;&amp;lt;span&amp;gt;7&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-2&amp;quot;&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-6&amp;quot;&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-3&amp;quot;&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-5&amp;quot;&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-4&amp;quot;&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-4&amp;quot;&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-5&amp;quot;&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-3&amp;quot;&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-6&amp;quot;&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-2&amp;quot;&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-7&amp;quot;&amp;gt;&amp;lt;span&amp;gt;7&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-1&amp;quot;&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-full&amp;quot;&amp;gt;&amp;lt;span&amp;gt;Full&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;  </description>
     </item>
     
     <item>
@@ -64,7 +69,17 @@ H1 Heading H2 Heading H3 Heading H4 Heading Paragraph</description>
       <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
       
       <guid>/docs/buttons/</guid>
-      <description></description>
+      <description>Pulsanti semplici
+Title Button 
+Button  
+ 
+ Button 
+Button  
+ 
+ Button 
+Button  
+ 
+  &amp;lt;a class=&amp;quot;button&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;button icon&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;i class=&amp;quot;icon_refresh&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;button icon disabled&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;i class=&amp;quot;icon_refresh&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;/a&amp;gt;  </description>
     </item>
     
     <item>

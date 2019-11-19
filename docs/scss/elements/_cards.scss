@@ -1,16 +1,5 @@
-.card_grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-auto-flow: row;
-	grid-auto-rows: auto;
-	grid-gap: 32px;
-	margin: 0 auto;
-	padding: 32px;
-	max-width: 960px;
-}
-
-
 .card {
+	display:inline-block;
 	padding: 16px;
 	// border-radius: 16px;
 	background: $white;
@@ -26,7 +15,7 @@
 	.card_img {
 		margin-bottom: 16px;
 		width: 100%;
-		height: 128px;
+		height: auto;
 		object-fit: cover;
 		border-radius: 4px;
 	}
@@ -47,4 +36,17 @@
 		grid-area: right;
 		justify-self: right;
 	}
+}
+
+
+.card_grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(230px,1fr));;
+	grid-auto-flow: row;
+	grid-auto-rows: auto;
+	grid-gap: 32px;
+	margin: 0 auto;
+	padding: 32px;
+	margin: 0 auto 64px;
+	max-width: 1280px;
 }

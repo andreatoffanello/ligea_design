@@ -1,17 +1,25 @@
 <nav>
 
 	<a href="/" class="nav_logo">
-			
+
 			<img src="{{ .Site.BaseURL }}images/ligea_logo_white.svg">
 
 	</a>
-	
+
 	<!--a href="">A cosa serve</a-->
 
 	<div class="menu_container">
 
-		
-		
+		{{if not .IsHome}}
+
+			<h3>{{.Title}}</h3>
+
+		{{end}}
+
+	</div>
+
+	<div class="credits">
+		<a href="https://thetisit.com" title="Thetis IT"><span>Proudly made in </span><i class="icon_thetis_logo"></i></a>
 	</div>
 
 

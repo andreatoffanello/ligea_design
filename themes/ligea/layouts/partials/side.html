@@ -2,7 +2,12 @@
 
 	<div class="side_menu">
 
-		<h3>Documentation</h3>
+		<div class="side_heading">
+			<i class="icon_menu"></i>
+			<h3>Menu</h3>
+		</div>
+
+
 
 
 		{{ $current := . }}
@@ -10,36 +15,22 @@
 		  	{{ range .Site.Menus.docs }}
 		     		{{ $active := or ($current.IsMenuCurrent "docs" .) ($current.HasMenuCurrent "docs" .) }}
 		     		{{ $active := or $active (eq .Name $current.Title) }}
-		     		
+
 		     		<a href="{{ .URL }}" class="menu_item {{ if $active }}active{{ end }}" >
 		        		{{ .Name }}
 		    		</a>
 		  	{{ end }}
 
 
+			{{ range .Site.Menus.resources }}
+		     		{{ $active := or ($current.IsMenuCurrent "resources" .) ($current.HasMenuCurrent "resources" .) }}
+		     		{{ $active := or $active (eq .Name $current.Title) }}
 
+		     		<a href="{{ .URL }}" class="menu_item {{ if $active }}active{{ end }}" >
+		        		{{ .Name }}
+		    		</a>
+		  	{{ end }}
 
-
-
-		<!-- <a class="menu_item active" href="/docs/">Introduction</a>
-
-		<div class="divider"></div>
-		
-		<a class="menu_item" href="/docs/typography">Typography</a>
-		
-		<a class="menu_item" href="/docs/icons">Icons</a>
-
-		<a class="menu_item" href="/docs/colors">Colors</a>		
-		
-		<a class="menu_item" href="/docs/layout">Layout</a>
-
-		<a class="menu_item" href="/docs/elements">Elements</a>	
-
-		<a class="menu_item" href="/docs/buttons">Buttons</a>
-
-		<a class="menu_item" href="/docs/forms">Forms</a>
-
-		<a class="menu_item" href="/docs/cards">Cards</a> -->	
 
 
 	</div>

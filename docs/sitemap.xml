@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/assets/</loc>
+    <lastmod>2019-01-08T13:17:14+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/docs/</loc>
+    <lastmod>2019-01-08T13:17:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/principles/</loc>
+    <lastmod>2019-01-08T13:17:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resources/</loc>
     <lastmod>2019-01-08T13:17:14+02:00</lastmod>
   </url>
   

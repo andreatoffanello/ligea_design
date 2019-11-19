@@ -63,6 +63,7 @@ gulp.task('styles', function() {
     .pipe(sourcemaps.init())
     .pipe(sass(sassOptions))
     .pipe(prefix(prefixerOptions))
+    // .pipe(sourcemaps.write('.'))
     .pipe(rename('main.css'))
     .pipe(gulp.dest('css'))
     .pipe(cssmin())

@@ -1,0 +1,18 @@
+<html>
+    {{- partial "head.html" . -}}
+    <body>      
+
+    	{{- partial "header.html" . -}}
+        
+        <div class="page">
+
+        	{{- partial "side.html" . -}}
+
+        	{{- block "main" . }}{{- end }}
+        
+        </div>
+
+        {{- partial "footer.html" . -}}
+
+    </body>
+</html>
