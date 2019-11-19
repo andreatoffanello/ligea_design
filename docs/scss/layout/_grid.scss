@@ -2,17 +2,6 @@
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
 	grid-gap: 16px;
-
-	.item {
-		height: auto;
-		background: $main;
-		text-align: center;
-		opacity:.5;
-
-		span {
-			color: $white;
-		}
-	}
 }
 
 .col-1 {

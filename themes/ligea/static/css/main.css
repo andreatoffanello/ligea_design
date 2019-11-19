@@ -93,17 +93,6 @@ hr {
   grid-gap: 16px;
 }
 
-.grid .item {
-  height: auto;
-  background: #033E8C;
-  text-align: center;
-  opacity: .5;
-}
-
-.grid .item span {
-  color: #ffffff;
-}
-
 .col-1 {
   grid-column: span 1;
 }
