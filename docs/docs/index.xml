@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on Ligea Design System</title>
-    <link>/docs.html</link>
+    <link>/docs/</link>
     <description>Recent content in Introduction on Ligea Design System</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Typography</title>
-      <link>/docs/typography.html</link>
+      <link>/docs/typography/</link>
       <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
       
-      <guid>/docs/typography.html</guid>
+      <guid>/docs/typography/</guid>
       <description>Font family: Source Sans Pro
 &amp;ldquo;Source® Sans Pro, Adobe&amp;rsquo;s first open source typeface family, was designed by Paul D. Hunt. It is a sans serif typeface intended to work well in user interfaces.&amp;rdquo;
 H1 Heading H2 Heading H3 Heading H4 Heading Paragraph
@@ -25,10 +25,10 @@ H1 Heading H2 Heading H3 Heading H4 Heading Paragraph
     
     <item>
       <title>Icons</title>
-      <link>/docs/icons.html</link>
+      <link>/docs/icons/</link>
       <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
       
-      <guid>/docs/icons.html</guid>
+      <guid>/docs/icons/</guid>
       <description> Assets Scarica il file .zip con le le icone:
 Download icon pack  
 Oppure utilizza il link nell&amp;rsquo;head:
@@ -38,37 +38,37 @@ Oppure utilizza il link nell&amp;rsquo;head:
     
     <item>
       <title>Colors</title>
-      <link>/docs/colors.html</link>
+      <link>/docs/colors/</link>
       <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
       
-      <guid>/docs/colors.html</guid>
+      <guid>/docs/colors/</guid>
       <description>  #033E8C   #7898C9   #353535   #b2b2b2   #fafafa   SCSS /* Directory */ .../scss/ |... | |_colors.scss | |...   /* Scss variables */ $main: #033E8C; $main_light: #E1E7EF; $second: #7898C9; $dark: #353535; $gray: #B2B2B2; $light: #FAFAFA; $white: #FFFFFF; /* Usage example */ div { background-color: $main; }  </description>
     </item>
     
     <item>
       <title>Layout</title>
-      <link>/docs/layout.html</link>
+      <link>/docs/layout/</link>
       <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
       
-      <guid>/docs/layout.html</guid>
+      <guid>/docs/layout/</guid>
       <description>1 7 2 6 3 5 4 4 5 3 6 2 7 1 Full  &amp;lt;div class=&amp;quot;grid demo&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;col-1&amp;quot;&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-7&amp;quot;&amp;gt;&amp;lt;span&amp;gt;7&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-2&amp;quot;&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-6&amp;quot;&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-3&amp;quot;&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-5&amp;quot;&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-4&amp;quot;&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-4&amp;quot;&amp;gt;&amp;lt;span&amp;gt;4&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-5&amp;quot;&amp;gt;&amp;lt;span&amp;gt;5&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-3&amp;quot;&amp;gt;&amp;lt;span&amp;gt;3&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-6&amp;quot;&amp;gt;&amp;lt;span&amp;gt;6&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-2&amp;quot;&amp;gt;&amp;lt;span&amp;gt;2&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-7&amp;quot;&amp;gt;&amp;lt;span&amp;gt;7&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-1&amp;quot;&amp;gt;&amp;lt;span&amp;gt;1&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;col-full&amp;quot;&amp;gt;&amp;lt;span&amp;gt;Full&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt;  </description>
     </item>
     
     <item>
       <title>Elements</title>
-      <link>/docs/elements.html</link>
+      <link>/docs/elements/</link>
       <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
       
-      <guid>/docs/elements.html</guid>
+      <guid>/docs/elements/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Buttons</title>
-      <link>/docs/buttons.html</link>
+      <link>/docs/buttons/</link>
       <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
       
-      <guid>/docs/buttons.html</guid>
+      <guid>/docs/buttons/</guid>
       <description>Pulsanti semplici
 Title Button 
 Button  
@@ -84,19 +84,19 @@ Button
     
     <item>
       <title>Forms</title>
-      <link>/docs/forms.html</link>
+      <link>/docs/forms/</link>
       <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
       
-      <guid>/docs/forms.html</guid>
+      <guid>/docs/forms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cards</title>
-      <link>/docs/cards.html</link>
+      <link>/docs/cards/</link>
       <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
       
-      <guid>/docs/cards.html</guid>
+      <guid>/docs/cards/</guid>
       <description></description>
     </item>
     

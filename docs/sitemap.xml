@@ -3,62 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/assets.html</loc>
+    <loc>/assets/</loc>
     <lastmod>2019-01-08T13:17:14+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs.html</loc>
+    <loc>/docs/</loc>
     <lastmod>2019-01-08T13:17:14+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/principles.html</loc>
+    <loc>/principles/</loc>
     <lastmod>2019-01-08T13:17:14+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/resources.html</loc>
+    <loc>/resources/</loc>
     <lastmod>2019-01-08T13:17:14+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/typography.html</loc>
+    <loc>/docs/typography/</loc>
     <lastmod>2019-01-08T13:17:14+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/icons.html</loc>
+    <loc>/docs/icons/</loc>
     <lastmod>2019-01-08T13:17:14+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/colors.html</loc>
+    <loc>/docs/colors/</loc>
     <lastmod>2019-01-08T13:17:14+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/layout.html</loc>
+    <loc>/docs/layout/</loc>
     <lastmod>2019-01-08T13:17:14+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/elements.html</loc>
+    <loc>/docs/elements/</loc>
     <lastmod>2019-01-08T13:17:14+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/buttons.html</loc>
+    <loc>/docs/buttons/</loc>
     <lastmod>2019-01-08T13:17:14+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/forms.html</loc>
+    <loc>/docs/forms/</loc>
     <lastmod>2019-01-08T13:17:14+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/docs/cards.html</loc>
+    <loc>/docs/cards/</loc>
     <lastmod>2019-01-08T13:17:14+02:00</lastmod>
   </url>
   
@@ -68,12 +68,12 @@
   </url>
   
   <url>
-    <loc>/categories.html</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags.html</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
