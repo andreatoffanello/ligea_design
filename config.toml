@@ -1,7 +1,9 @@
-baseURL = "..."
+baseURL = "/"
 languageCode = "en-us"
 title = "Ligea Design System"
 theme = "Ligea"
+relativeurls = true
+uglyurls = true
 
 enableRobotsTXT= "true"
 publishDir = "docs"
