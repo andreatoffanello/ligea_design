@@ -12,13 +12,11 @@ weight: 7
 partial: buttons
 
 ---
-
-
 Pulsanti semplici
 
-<div class="grid demo">
+<div class="grid">
     <div class="col-2">
-        <h3>Title</h3>
+        <h3>Principale</h3>
         <a class="button" href="#">
             <span>Button</span>
         </a><br>
@@ -31,6 +29,7 @@ Pulsanti semplici
         </a><br>
     </div>
     <div class="col-2">
+        <h3>Alternativo</h3>
         <a class="button alt" href="#">
             <span>Button</span>
         </a><br>
@@ -43,14 +42,28 @@ Pulsanti semplici
         </a><br>
     </div>
     <div class="col-2">
-        <a class="button secondary alt" href="#">
+        <h3>Secondario</h3>
+        <a class="button secondary" href="#">
             <span>Button</span>
         </a><br>
-        <a class="button secondary icon alt" href="#">
+        <a class="button secondary icon" href="#">
             <span>Button</span>
             <i class="icon_refresh"></i>
         </a><br>
-        <a class="button secondary only_icon alt" href="#">
+        <a class="button secondary only_icon" href="#">
+            <i class="icon_refresh"></i>
+        </a><br>
+    </div>
+    <div class="col-2">
+        <h3>Disabilitato</h3>
+        <a class="button disabled" href="#">
+            <span>Button</span>
+        </a><br>
+        <a class="button disabled icon" href="#">
+            <span>Button</span>
+            <i class="icon_refresh"></i>
+        </a><br>
+        <a class="button disabled only_icon" href="#">
             <i class="icon_refresh"></i>
         </a><br>
     </div>
@@ -59,6 +72,9 @@ Pulsanti semplici
 
 
 ```
+
+<!-- Principale -->
+
 <a class="button" href="#">
     <span>Button</span>
 </a>
@@ -68,9 +84,55 @@ Pulsanti semplici
     <i class="icon_refresh"></i>
 </a>
 
-<a class="button icon disabled" href="#">
+<a class="button only_icon" href="#">
+    <i class="icon_refresh"></i>
+</a>
+
+
+<!-- Alternativo -->
+
+<a class="button alt" href="#">
+    <span>Button</span>
+</a>
+
+<a class="button icon alt" href="#">
     <span>Button</span>
     <i class="icon_refresh"></i>
 </a>
 
+<a class="button only_icon alt" href="#">
+    <i class="icon_refresh"></i>
+</a>
+
+
+<!-- Secondario -->
+
+<a class="button secondary" href="#">
+    <span>Button</span>
+</a>
+
+<a class="button secondary icon" href="#">
+    <span>Button</span>
+    <i class="icon_refresh"></i>
+</a>
+
+<a class="button secondary only_icon" href="#">
+    <i class="icon_refresh"></i>
+</a>
+
+
+<!-- Disabilitato -->
+
+<a class="button disabled" href="#">
+    <span>Button</span>
+</a>
+
+<a class="button disabled icon" href="#">
+    <span>Button</span>
+    <i class="icon_refresh"></i>
+</a>
+
+<a class="button disabled only_icon" href="#">
+    <i class="icon_refresh"></i>
+</a>
 ```

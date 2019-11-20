@@ -1,15 +1,15 @@
 <html>
     {{- partial "head.html" . -}}
-    <body>      
+    <body id="demo">     
 
     	{{- partial "header.html" . -}}
-        
+
         <div class="page">
 
         	{{- partial "side.html" . -}}
 
         	{{- block "main" . }}{{- end }}
-        
+
         </div>
 
         {{- partial "footer.html" . -}}

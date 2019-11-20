@@ -54,6 +54,22 @@ body {
 }
 
 
+#demo {
+
+	.button {
+		margin-bottom: 1.6rem;
+	}
+}
+
+// resources
+
+.attachment_grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 240px);
+	grid-gap: 32px;
+}
+
+
 // colors
 
 .color_grid {

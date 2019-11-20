@@ -1,20 +1,28 @@
 {{ define "main" }}
 
-	<div class="content">
+	<div class="content sh">
 
-		<H1>{{.Title}}</H1>
+		<div class="grid">
 
-		<div>{{.Content}}</div>
+			<div class="col-6">
 
-		{{ if isset .Params "partial" }}
+				<H1>{{.Title}}</H1>
 
-			{{ $element := .Params.partial }}
+				<div>{{.Content}}</div>
 
-			{{ $path := (printf "%s%s%s" "elements/" $element ".html") }}
+				<!-- {{ if isset .Params "partial" }}
 
-			{{ partial $path . }}
+					{{ $element := .Params.partial }}
 
-		{{ end }}
+					{{ $path := (printf "%s%s%s" "elements/" $element ".html") }}
+
+					{{ partial $path . }}
+
+				{{ end }} -->
+
+			</div>
+
+		</div>
 
 	</div>
 

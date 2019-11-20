@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction on Ligea Design System</title>
+    <title>Introduzione on Ligea Design System</title>
     <link>/docs/</link>
-    <description>Recent content in Introduction on Ligea Design System</description>
+    <description>Recent content in Introduzione on Ligea Design System</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Jan 2019 13:17:14 +0200</lastBuildDate>
@@ -70,16 +70,19 @@ Oppure utilizza il link nell&amp;rsquo;head:
       
       <guid>/docs/buttons/</guid>
       <description>Pulsanti semplici
-Title Button 
+Principale Button 
 Button  
  
- Button 
+ Alternativo Button 
 Button  
  
- Button 
+ Secondario Button 
 Button  
  
-  &amp;lt;a class=&amp;quot;button&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;button icon&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;i class=&amp;quot;icon_refresh&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;button icon disabled&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;i class=&amp;quot;icon_refresh&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;/a&amp;gt;  </description>
+ Disabilitato Button 
+Button  
+ 
+   &amp;lt;!-- Principale --&amp;gt; &amp;lt;a class=&amp;quot;button&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;button icon&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;i class=&amp;quot;icon_refresh&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;button only_icon&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;icon_refresh&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;!-- Alternativo --&amp;gt; &amp;lt;a class=&amp;quot;button alt&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;button icon alt&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;i class=&amp;quot;icon_refresh&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;button only_icon alt&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;icon_refresh&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;!</description>
     </item>
     
     <item>

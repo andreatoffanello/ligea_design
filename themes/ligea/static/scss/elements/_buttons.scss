@@ -15,7 +15,9 @@
 		grid-gap: .8rem;
 	}
 
-	&.only_icon {
+	&.only_icon,
+	&.only_icon.alt,
+	&.only_icon.secondary {
 		padding: .8rem;
 	}
 
@@ -43,6 +45,45 @@
 		}
 	}
 
+	&.alt{
+		border: .2rem solid $main;
+		padding: .8rem 2.4rem;
+		background: $white;
+
+		* {
+			color: $main;
+		}
+
+		&:hover {
+			background: $main;
+			transition: .3s ease-in-out;
+
+			* {
+				color: $white;
+			}
+		}
+	}
+
+	&.secondary{
+		border: .2rem solid $second;
+		padding: .8rem 2.4rem;
+		background: $second;
+
+		* {
+			color: $white;
+		}
+
+		&:hover {
+			background: $white;
+			transition: .3s ease-in-out;
+
+			* {
+				color: $second;
+			}
+		}
+	}
+
+
 	&.disabled {
 		cursor: unset;
 		background: $gray;
@@ -54,12 +95,5 @@
 				color: $white;
 			}
 		}
-	}
-}
-
-.grid.demo {
-
-	.button {
-		margin-bottom: .8rem;
 	}
 }

@@ -24,6 +24,24 @@ H1 Heading H2 Heading H3 Heading H4 Heading Paragraph
     </item>
     
     <item>
+      <title>eBus Saeiv</title>
+      <link>/resources/saeiv/</link>
+      <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
+      
+      <guid>/resources/saeiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eBus Terminali Bordo</title>
+      <link>/resources/terminali_bordo/</link>
+      <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
+      
+      <guid>/resources/terminali_bordo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Icons</title>
       <link>/docs/icons/</link>
       <pubDate>Tue, 08 Jan 2019 13:17:14 +0200</pubDate>
@@ -70,16 +88,19 @@ Oppure utilizza il link nell&amp;rsquo;head:
       
       <guid>/docs/buttons/</guid>
       <description>Pulsanti semplici
-Title Button 
+Principale Button 
 Button  
  
- Button 
+ Alternativo Button 
 Button  
  
- Button 
+ Secondario Button 
 Button  
  
-  &amp;lt;a class=&amp;quot;button&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;button icon&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;i class=&amp;quot;icon_refresh&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;button icon disabled&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;i class=&amp;quot;icon_refresh&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;/a&amp;gt;  </description>
+ Disabilitato Button 
+Button  
+ 
+   &amp;lt;!-- Principale --&amp;gt; &amp;lt;a class=&amp;quot;button&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;button icon&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;i class=&amp;quot;icon_refresh&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;button only_icon&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;icon_refresh&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;!-- Alternativo --&amp;gt; &amp;lt;a class=&amp;quot;button alt&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;button icon alt&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;span&amp;gt;Button&amp;lt;/span&amp;gt; &amp;lt;i class=&amp;quot;icon_refresh&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;a class=&amp;quot;button only_icon alt&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt; &amp;lt;i class=&amp;quot;icon_refresh&amp;quot;&amp;gt;&amp;lt;/i&amp;gt; &amp;lt;/a&amp;gt; &amp;lt;!</description>
     </item>
     
     <item>

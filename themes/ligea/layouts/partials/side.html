@@ -7,10 +7,9 @@
 			<h3>Menu</h3>
 		</div>
 
-
-
-
 		{{ $current := . }}
+
+		{{ if eq .Params.menu "docs" }}
 
 		  	{{ range .Site.Menus.docs }}
 		     		{{ $active := or ($current.IsMenuCurrent "docs" .) ($current.HasMenuCurrent "docs" .) }}
@@ -21,8 +20,24 @@
 		    		</a>
 		  	{{ end }}
 
+		{{ end }}
 
-			{{ range .Site.Menus.resources }}
+		{{ if eq .Params.menu "principles" }}
+
+		  	{{ range .Site.Menus.principles }}
+		     		{{ $active := or ($current.IsMenuCurrent "principles" .) ($current.HasMenuCurrent "principles" .) }}
+		     		{{ $active := or $active (eq .Name $current.Title) }}
+
+		     		<a href="{{ .URL }}" class="menu_item {{ if $active }}active{{ end }}" >
+		        		{{ .Name }}
+		    		</a>
+		  	{{ end }}
+
+		{{ end }}
+
+		{{ if eq .Params.menu "resources" }}
+
+		  	{{ range .Site.Menus.resources }}
 		     		{{ $active := or ($current.IsMenuCurrent "resources" .) ($current.HasMenuCurrent "resources" .) }}
 		     		{{ $active := or $active (eq .Name $current.Title) }}
 
@@ -30,6 +45,27 @@
 		        		{{ .Name }}
 		    		</a>
 		  	{{ end }}
+
+		{{ end }}
+
+		{{ if eq .Params.menu "assets" }}
+
+		  	{{ range .Site.Menus.assets }}
+		     		{{ $active := or ($current.IsMenuCurrent "assets" .) ($current.HasMenuCurrent "assets" .) }}
+		     		{{ $active := or $active (eq .Name $current.Title) }}
+
+		     		<a href="{{ .URL }}" class="menu_item {{ if $active }}active{{ end }}" >
+		        		{{ .Name }}
+		    		</a>
+		  	{{ end }}
+
+		{{ end }}
+
+
+		<a href="{{ .Site.BaseURL }}" class="side_bottom">
+				<i class="icon_arrow_left_long"></i>
+				<h3>Back</h3>
+		</a>
 
 
 

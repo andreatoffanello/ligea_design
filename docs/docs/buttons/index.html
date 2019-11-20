@@ -79,7 +79,7 @@
 <link rel="stylesheet" type="text/css" href="/css/main.min.css">
 
 <link rel="stylesheet" type="text/css" href="https://andreatoffanello.github.io/thetis_icon_font/style.css">
-<body><nav>
+<body id="demo"><nav>
 
 	<a href="/" class="nav_logo">
 
@@ -114,8 +114,7 @@
 			<h3>Menu</h3>
 		</div>
 
-
-
+		
 
 		
 
@@ -124,7 +123,7 @@
 		     		
 
 		     		<a href="/docs/" class="menu_item " >
-		        		Introduction
+		        		Introduzione
 		    		</a>
 		  	
 		     		
@@ -184,15 +183,19 @@
 		    		</a>
 		  	
 
+		
 
-			
-		     		
-		     		
+		
 
-		     		<a href="/resources/" class="menu_item " >
-		        		Resources
-		    		</a>
-		  	
+		
+
+		
+
+
+		<a href="/" class="side_bottom">
+				<i class="icon_arrow_left_long"></i>
+				<h3>Back</h3>
+		</a>
 
 
 
@@ -202,15 +205,15 @@
 </div>
 
 
-	<div class="content">
+	<div class="content sh">
 
 		<H1>Buttons</H1>
 
 		<div><p>Pulsanti semplici</p>
 
-<div class="grid demo">
+<div class="grid">
     <div class="col-2">
-        <h3>Title</h3>
+        <h3>Principale</h3>
         <a class="button" href="#">
             <span>Button</span>
         </a><br>
@@ -223,6 +226,7 @@
         </a><br>
     </div>
     <div class="col-2">
+        <h3>Alternativo</h3>
         <a class="button alt" href="#">
             <span>Button</span>
         </a><br>
@@ -235,20 +239,37 @@
         </a><br>
     </div>
     <div class="col-2">
-        <a class="button secondary alt" href="#">
+        <h3>Secondario</h3>
+        <a class="button secondary" href="#">
             <span>Button</span>
         </a><br>
-        <a class="button secondary icon alt" href="#">
+        <a class="button secondary icon" href="#">
             <span>Button</span>
             <i class="icon_refresh"></i>
         </a><br>
-        <a class="button secondary only_icon alt" href="#">
+        <a class="button secondary only_icon" href="#">
+            <i class="icon_refresh"></i>
+        </a><br>
+    </div>
+    <div class="col-2">
+        <h3>Disabilitato</h3>
+        <a class="button disabled" href="#">
+            <span>Button</span>
+        </a><br>
+        <a class="button disabled icon" href="#">
+            <span>Button</span>
+            <i class="icon_refresh"></i>
+        </a><br>
+        <a class="button disabled only_icon" href="#">
             <i class="icon_refresh"></i>
         </a><br>
     </div>
 </div>
 
-<pre><code>&lt;a class=&quot;button&quot; href=&quot;#&quot;&gt;
+<pre><code>
+&lt;!-- Principale --&gt;
+
+&lt;a class=&quot;button&quot; href=&quot;#&quot;&gt;
     &lt;span&gt;Button&lt;/span&gt;
 &lt;/a&gt;
 
@@ -257,11 +278,57 @@
     &lt;i class=&quot;icon_refresh&quot;&gt;&lt;/i&gt;
 &lt;/a&gt;
 
-&lt;a class=&quot;button icon disabled&quot; href=&quot;#&quot;&gt;
+&lt;a class=&quot;button only_icon&quot; href=&quot;#&quot;&gt;
+    &lt;i class=&quot;icon_refresh&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
+
+
+&lt;!-- Alternativo --&gt;
+
+&lt;a class=&quot;button alt&quot; href=&quot;#&quot;&gt;
+    &lt;span&gt;Button&lt;/span&gt;
+&lt;/a&gt;
+
+&lt;a class=&quot;button icon alt&quot; href=&quot;#&quot;&gt;
     &lt;span&gt;Button&lt;/span&gt;
     &lt;i class=&quot;icon_refresh&quot;&gt;&lt;/i&gt;
 &lt;/a&gt;
 
+&lt;a class=&quot;button only_icon alt&quot; href=&quot;#&quot;&gt;
+    &lt;i class=&quot;icon_refresh&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
+
+
+&lt;!-- Secondario --&gt;
+
+&lt;a class=&quot;button secondary&quot; href=&quot;#&quot;&gt;
+    &lt;span&gt;Button&lt;/span&gt;
+&lt;/a&gt;
+
+&lt;a class=&quot;button secondary icon&quot; href=&quot;#&quot;&gt;
+    &lt;span&gt;Button&lt;/span&gt;
+    &lt;i class=&quot;icon_refresh&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
+
+&lt;a class=&quot;button secondary only_icon&quot; href=&quot;#&quot;&gt;
+    &lt;i class=&quot;icon_refresh&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
+
+
+&lt;!-- Disabilitato --&gt;
+
+&lt;a class=&quot;button disabled&quot; href=&quot;#&quot;&gt;
+    &lt;span&gt;Button&lt;/span&gt;
+&lt;/a&gt;
+
+&lt;a class=&quot;button disabled icon&quot; href=&quot;#&quot;&gt;
+    &lt;span&gt;Button&lt;/span&gt;
+    &lt;i class=&quot;icon_refresh&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
+
+&lt;a class=&quot;button disabled only_icon&quot; href=&quot;#&quot;&gt;
+    &lt;i class=&quot;icon_refresh&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
 </code></pre>
 </div>
 
@@ -280,7 +347,7 @@
 
 
 
-        
+
         </div><footer>
     <script>hljs.initHighlightingOnLoad();</script>
 

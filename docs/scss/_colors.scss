@@ -12,9 +12,6 @@ $light: #fafafa;
 
 $white: #ffffff;
 
-
-
-
 @mixin graygradient{
 
     background: linear-gradient(0deg, rgba(178,178,178, .5) 0%, rgba(178,178,178, 0) 100%); /* W3C */
