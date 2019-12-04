@@ -4,6 +4,7 @@ title = "Ligea Design System"
 theme = "Ligea"
 
 enableRobotsTXT= "true"
+
 publishDir = "docs"
 
 # sectionPagesMenu = "main"

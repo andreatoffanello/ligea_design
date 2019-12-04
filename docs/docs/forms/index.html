@@ -70,11 +70,10 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<link rel="stylesheet"
-      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/default.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/default.min.css">
 <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js"></script>
 
-<script scr="/js/main.js"></script>
+<script src="/js/main.js"></script>
 
 <link rel="stylesheet" type="text/css" href="/css/main.min.css">
 
@@ -205,11 +204,30 @@
 </div>
 
 
-	<div class="content sh">
+	<div class="content">
 
 		<H1>Forms</H1>
 
-		<div></div>
+		<div>
+
+<h3 id="input">Input</h3>
+
+<p><label>Input Label</label>
+<input type="text" placeholder="Placeholder"></p>
+
+<h3 id="select">Select</h3>
+
+<p><label>Input Label</label>
+<div class="select">
+    <input type="search" placeholder="Placeholder">
+    <div class="opt_list">
+        <li data-value="Item one">Item one</li>
+        <li data-value="Item two">Item two</li>
+        <li data-value="Item three">Item three</li>
+        <li data-value="Item four">Item four</li>
+    </div>
+</div></p>
+</div>
 
 		
 
@@ -220,6 +238,9 @@
 
         </div><footer>
     <script>hljs.initHighlightingOnLoad();</script>
+
+
+     <script type="text/javascript" src="/js/main.js"></script>
 
 </footer>
 </body>
