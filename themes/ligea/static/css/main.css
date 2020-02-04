@@ -856,6 +856,47 @@ label {
   position: absolute;
 }
 
+table {
+  background: #ffffff;
+  padding: 0 16px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+table td, table th {
+  padding: 8px 16px;
+  text-align: left;
+}
+
+table tr:nth-child(even) {
+  background: #fafafa;
+}
+
+table tr.table_head {
+  border-bottom: 1px solid #b2b2b2;
+  position: relative;
+}
+
+table tr.table_head:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #b2b2b2;
+}
+
+table tr th {
+  color: #033E8C;
+}
+
+table tbody {
+  height: 100%;
+  overflow: scroll;
+}
+
 body {
   background: #fafafa;
 }
